@@ -1,0 +1,49 @@
+\documentclass[10pt,b5paper,openany]{book}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathpple}
+\usepackage{upgreek}
+\usepackage{mathpazo}
+\usepackage[superscript]{cite}
+\usepackage[colorlinks,linkcolor=black]{hyperref}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{savesym}
+\usepackage{amsfonts}
+\usepackage[margin=1.5in]{geometry}
+\usepackage{fancybox}
+\usepackage{fontspec}
+\usepackage{fancyhdr}
+\usepackage{epigraph}
+\usepackage{caption}
+\usepackage[all]{xy}
+\usepackage{tikz}
+\usepackage{amsmath,amscd}
+\usepackage{geometry}
+\geometry{right=2.5cm,left=2.5cm,top=2.5cm,bottom=2.5cm}
+\pagestyle{fancy} \lhead{\rightmark}\chead{\leftmark}\rhead{2021.7.30}
+\usepackage{amsmath,amscd}
+\usepackage{bm}
+\usepackage{titlesec}%chapter1修改为第1章
+\titleformat{\chapter}[block]{\Huge\bfseries}{\chaptername}{10pt}{\\}
+\makeatletter % `@' now normal "letter"
+\@addtoreset{equation}{section}
+\makeatother  % `@' is restored as "non-letter"
+\renewcommand\theequation{\oldstylenums{\thesection}%
+                   .\oldstylenums{\arabic{equation}}}
+
+\usepackage{newpxtext,newpxmath}
+
+
+\begin{document}
+
+\chapter{Typical application Examples}
+
+\epigraphhead[80]{\epigraph{\textit{Whether it is the old man, or the young, it is the last time for us to sail.}}{\textit{Stevenson}}}
+
+This page is\footnote{hahahaha}
+
+
+
+
+\end{document}
