@@ -1,4 +1,5 @@
 \documentclass[10pt,b5paper,openany]{book}
+\usepackage{multicol}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{mathpple}
@@ -43,7 +44,11 @@
 
 This page is\footnote{hahahaha}
 
+content1
 
-
+\columnseprule=1pt         % 实现插入分隔线
+\begin{multicols}{2} 
+content2
+\end{multicols}
 
 \end{document}
